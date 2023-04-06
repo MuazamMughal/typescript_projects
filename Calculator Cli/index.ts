@@ -1,13 +1,11 @@
-#!usr/bin/env node
+#!/usr/bin/env node
 
-//noow adding thee chebang path, that in which envorment it runs
+
 
 import inquirer from "inquirer";
 import chalk from "chalk";
 import chalkAnimation from "chalk-animation"
-import { types } from "util";
-import { log } from "console";
-import { start } from "repl";
+
 
 //adding the function for time sync
 
